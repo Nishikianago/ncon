@@ -141,10 +141,6 @@ header h1 {
   max-width: 800px;
 }
 
-.print-map {
-  display: none;
-}
-
 html {
   scroll-behavior: smooth;
 }
