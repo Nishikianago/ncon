@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>2026 神工校内マップ - 第七十三回NHK杯全国高校放送コンテスト 神奈川県大会 - 顧問等</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit-cover" />
+    <meta name="author" content="Haruka Kato">
+    <meta name="description" content="第七十三回NHK杯全国高校放送コンテスト 神奈川県大会の顧問・OB・OG向けページです。">
+    <meta name="keywords" content="地図, マップ, 校内マップ, NHK杯全国高校放送コンテスト, 神奈川県大会, 神工, 放送部, 専門部, 神奈川県高等学校視聴覚研究会, 神高視研, 顧問, OB, OG, 卒業生">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        a,a:visited {
+            color: #000;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body class="fl">
+    <a class="pagetop" href="#"><div class="pagetop__arrow"></div></a>
+    <header>
+        <h1><span class="nhk">ＮＨＫ </span>杯全国高校放送コンテスト<br>神奈川県大会</h1>
+    </header>
+    <div id="navigation-bar" class="for-sp">
+        <ul>
+            <li><a href="map.html">フロアマップ</a></li>
+            <li><a href="">さくいん</a></li>
+            <!--<li><a href="diagnosis.html">診断</a></li>-->
+            <li><a href="https://sites.google.com/view/kanakousiken/">集まれ放送委員会</a></li>
+            <!--<li><a href="https://www.nhk.or.jp/event/n-con/">NコンWEB</a></li>-->
+        </ul>
+    </div>
+    <main>
+        <div class="tablike">
+            <div class="tab-label"><a href="sakuin.html">全て</a></div>
+            <div class="tab-label"><a href="sakuin_day1.html">1日目</a></div>
+            <div class="tab-label"><a href="sakuin_day2.html">2日目</a></div>
+            <div class="tab-label"><a href="sakuin_announce.html">アナウンス</a></div>
+            <div class="tab-label"><a href="sakuin_recitation.html">朗読</a></div>
+            <div class="tab-label"><a href="sakuin_program.html">番組<br>・<br>研発</a></div>
+            <div class="tab-labeled">顧問等</div>
+        </div>
+        <div class="sfloor">
+            <p style="text-align: left; margin-left: 40px;" >目次</p>
+            <div style="text-align: left; margin-left: 50px; text-decoration: underline;">
+                <a href="#1F">▽１階・屋外<br></a>
+                <a href="#2F">▽２階<br></a>
+            </div>
+            <div style="text-align: left; margin-left: 50px;">
+                ◯３階<br>
+            </div>
+            <div style="text-align: left; margin-left: 50px; text-decoration: underline;">
+                <a href="#4F">▽４階<br></a>
+            </div>
+            <div style="text-align: left; margin-left: 50px;">
+                ◯５階<br>
+                ◯６階<br>
+                ◯７階<br>
+                ▢８階（立入禁止）<br>
+            </div>
+            <div style="text-align: left; margin-left: 50px; text-decoration: underline;">
+                <a href="#9F">▽９階<br></a>
+            </div>
+            <div style="text-align: left; margin-left: 50px;">
+                ◯１０階
+            </div>
+        </div>
+        <div class="text" style="text-align: center; text-decoration: underline; ">
+            <p style="font-size: 10pt;"><br></p>
+            <p style="outline: dashed; max-width: 800px;">
+            <a href="73Nコン県大会 運営支援用 大会スケジュール.pdf">運営支援用 大会スケジュール.pdf</a></p>
+        </div>
+        <div class="text" style="text-align: center;">
+            <p style="color: #000;"><br>教室内では携帯電話等の<span style="color: #f00;">Wi-Fi</span>の設定は"<span style="color: #f00;">切</span>"でお願いします。<br>モバイルデータ通信の設定は"入"で構いません。</p>
+        </div>
+        <div id="search-container">
+            <input type="text" id="search-box" placeholder="キーワード検索">
+            <button class="button" onclick="search()">検索</button>
+        </div>
+        <p>テキストや画像をクリックすると<br>その部門のある階のフロアマップへジャンプします。</p>
+        <div class="text">
+            <div id="search-results"></div>
+            <div id="1F">
+                <h2><a href="map.html?floor=1F">１階・屋外</a></h2>
+                <p class="imagep">
+                    <a href="map.html?floor=1F">エレベーターホール<br>　<span class="nhk">ＮＨＫ </span>杯パネル フォトスポット
+                    <br><img class="images" src="sakuin/1FEVH.png"></a><br><br>
+                    <a href="map.html?floor=1F">多目的ホール<br>　6/14 (日) 14:00～<br>　閉会式
+                    <br><img class="images" src="sakuin/TAMOKUTEKI.png"></a><br><br>
+                    <a href="map.html?floor=1F">中庭<br>　情熱発電所VI フォトスポット
+                    <br><img class="images" src="sakuin/JOHATSU.png"></a><br><br>
+                </p>
+            </div>
+            <div id="2F">
+                <h2><a href="map.html?floor=2F">２階</a></h2>
+                <p class="imagep">
+                    <a href="map.html?floor=2F">食堂<br>　6/14 (日)<br>　利用時間：11:30～13:30（13:00ラストオーダー）
+                    <br><img class="images" src="sakuin/2FSHOKUDO.png"></a><br><br>
+                </p>
+            </div>
+            <div id="4F">
+                <h2><a href="map.html?floor=4F">４階</a></h2>
+                <p class="imagep">
+                    <a href="map.html?floor=4F">電子基礎計測実習室<br>　本部・集計 審査員集合場所
+                    </a><br><br>
+                </p>
+            </div>
+            <div id="9F">
+                <h2><a href="map.html?floor=9F">９階</a></h2>
+                <p class="imagep">
+                    <a href="map.html?floor=9F">エレベーターホール<br>　原稿・番組進行表 提出受付
+                    </a><br><br>
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p><small>&copy; 2026 神工校内マップ 108期生製作 111期改良 v2.3</small></p>
+        <br><br><br><br>
+    </footer>
+    <script>
+        // 団体データの配列
+        const organizations = [
+            {
+                name: 'エレベーターホール<br>　<span class="nhk">ＮＨＫ </span>杯パネル フォトスポット',
+                description: '１階・屋外',
+                image: 'br><img class="images" src="sakuin/1FEVH.png"',
+                floor: '1F',
+            },
+            {
+                name: '多目的ホール<br>　6/14 (日) 14:00～<br>　閉会式',
+                description: '１階・屋外',
+                image: 'br><img class="images" src="sakuin/TAMOKUTEKI.png"><',
+                floor: '1F',
+            },
+            {
+                name: '中庭<br>　情熱発電所VI フォトスポット',
+                description: '１階・屋外',
+                image: 'br><img class="images" src="sakuin/JOHATSU.png"><',
+                floor: '1F',
+            },
+            {
+                name: '食堂<br>　6/14 (日)<br>　利用時間：11:30～13:30（13:00ラストオーダー）',
+                description: '２階',
+                image: 'br><img class="images" src="sakuin/2FSHOKUDO.png"><',
+                floor: '2F',
+            },
+            {
+                name: '電子基礎計測実習室<br>　本部・集計 審査員集合場所',
+                description: '４階',
+                floor: '4F',
+            },
+            {
+                name: 'エレベーターホール<br>　原稿・番組進行表 提出受付',
+                description: '９階',
+                floor: '9F',
+            },
+        ];
+    
+        function search() {
+            const keyword = document.getElementById("search-box").value.toLowerCase().trim();
+            const resultsContainer = document.getElementById("search-results");
+            resultsContainer.innerHTML = ""; // 毎回初期化
+
+            if (keyword === "") {
+                resultsContainer.innerHTML = "<p>キーワードを入力してください。</p>";
+                return;
+            }
+
+            const results = organizations.filter(org => 
+                org.name.toLowerCase().includes(keyword) || org.description.toLowerCase().includes(keyword) || org.floor.toLowerCase().includes(keyword)
+            );
+
+            if (results.length === 0) {
+                resultsContainer.innerHTML = "<p>該当する部屋が見つかりませんでした。</p>";
+            } else {
+                results.forEach(org => {
+                    resultsContainer.innerHTML += `
+                        <div class="result-item">
+                            <h2>${org.description}</h2>
+                            <a href="map.html?floor=${org.floor}">${org.name}
+                            <${org.image}/a>
+                        </div>
+                    `;
+                });
+            }
+        }
+
+        // Enterキーで検索を実行するためのイベントリスナー
+        document.getElementById("search-box").addEventListener("keydown", function(event) {
+            if (event.key === "Enter") {
+                search();
+            }
+        });
+    </script>
+</body>
+</html>
